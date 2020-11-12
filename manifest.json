@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "BQ Confirm to Close",
+    "version": "0.1",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://console.cloud.google.com/bigquery*"
+        ],
+        "js": ["content.js"]
+      }
+    ]
+  }
